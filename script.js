@@ -5,7 +5,7 @@ function validateSubmit() {
     let contact = document.getElementById("contact").value;
     let country = document.getElementById("country").value;
 
-    let fields = [username, email, password, country, contact];
+    let fields = [username, email, password, contact, country];
     let fieldNames = ["Username", "Email", "Password", "Contact", "Country"];
     let i = 0;
 
